@@ -61,7 +61,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://msydjt.com/',
       hideLatencyChart: false,
       expectedCodes: [200],
-      timeout: 10000,
+      timeout: 1000,
     },
   ],
   notification: {
