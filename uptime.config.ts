@@ -54,21 +54,11 @@ const workerConfig: WorkerConfig = {
     //   //checkLocationWorkerRoute: 'https://xxx.example.com',
     // },
     {
-      id: 'uptimekuma',
-      name: 'UptimeKuma',
-      method: 'HEAD',
-      target: 'https://acofork-uptime.zeabur.app/status/acofork',
-      statusPageLink: 'https://acofork-uptime.zeabur.app/status/acofork',
-      hideLatencyChart: false,
-      expectedCodes: [200],
-      timeout: 10000,
-    },
-    {
       id: 'blog',
-      name: '博客总入口（自动分流）',
+      name: '博客',
       method: 'HEAD',
-      target: 'https://blog.acofork.com/',
-      statusPageLink: 'https://blog.acofork.com/',
+      target: 'https://msydjt.com/',
+      statusPageLink: 'https://msydjt.com/',
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
@@ -96,8 +86,8 @@ const workerConfig: WorkerConfig = {
       // [Required] payload to be sent
       // $MSG will be replaced with the human-readable notification message
       payload: {
-        "from": "系统状态更新 <uptimeflare@update.2x.nz>",
-        "to": ["acofork@foxmail.com"],
+        "from": "系统状态更新 <msydjt@520145.xyz>",
+        "to": ["msydjt@outlook.com"],
         "subject": "UptimeFlare 状态更新",
         "text": "$MSG"
       },
