@@ -7,7 +7,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   // Title for your status page
-  title: "AcoFork 的状态页",
+  title: "MSYDJT的网站状态页",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/MSYDJT', label: 'GitHub' },
