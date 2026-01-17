@@ -83,7 +83,7 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
-        {
+    {
       id: 'mail',
       name: '电子邮件',
       method: 'HEAD',
@@ -93,7 +93,7 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
-        {
+    {
       id: 'index',
       name: '导航页',
       method: 'HEAD',
@@ -103,7 +103,7 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
-        {
+    {
       id: 'tool',
       name: '工具聚合页',
       method: 'HEAD',
