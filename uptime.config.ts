@@ -95,7 +95,7 @@ const workerConfig: WorkerConfig = {
     },
     {
       id: 'index',
-      name: '导航页）',
+      name: '导航页',
       method: 'HEAD',
       target: 'https://index.msydjt.com/',
       statusPageLink: 'https://index.msydjt.com/',
