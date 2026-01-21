@@ -53,7 +53,7 @@ const workerConfig: WorkerConfig = {
     //   // 设置此值之前请参考文档 https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup
     //   //checkLocationWorkerRoute: 'https://xxx.example.com',
     // },
-    {
+  {
       id: 'blog',
       name: '博客',
       method: 'HEAD',
@@ -62,17 +62,17 @@ const workerConfig: WorkerConfig = {
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
-    }，
+    },
     {
       id: 'chat',
-      name: '在线聊天室'，
+      name: '在线聊天室',
       method: 'HEAD',
       target: 'https://chat.msydjt.com/',
       statusPageLink: 'https://chat.msydjt.com/',
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
-    }，
+    },
     {
       id: 'movie',
       name: '电影（密码：114514）',
@@ -95,7 +95,7 @@ const workerConfig: WorkerConfig = {
     },
     {
       id: 'index',
-      name: '导航页',
+      name: '导航页）',
       method: 'HEAD',
       target: 'https://index.msydjt.com/',
       statusPageLink: 'https://index.msydjt.com/',
