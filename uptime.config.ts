@@ -62,6 +62,16 @@ const workerConfig: WorkerConfig = {
       hideLatencyChart: false,
       expectedCodes: [200],
       timeout: 10000,
+    }，
+    {
+      id: 'pan',
+      name: '网盘',
+      method: 'HEAD',
+      target: 'https://pan.msydjt.com/',
+      statusPageLink: 'https://pan.msydjt.com/',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
     },
     {
       id: 'chat',
